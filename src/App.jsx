@@ -1,4 +1,5 @@
 import React from 'react';
+import profilePic from './assets/headshot.jpg';
 
 export default function App() {
   return (
@@ -30,14 +31,30 @@ export default function App() {
       <main className="max-w-5xl mx-auto px-6 sm:px-12 lg:px-24 py-16 space-y-20">
         
         {/* Hero Section / About Me */}
-        <section>
-          <h2 className="text-2xl font-bold text-slate-100 border-b border-slate-800 pb-3 mb-6 uppercase tracking-wider text-sm">About Me</h2>
-          <p className="text-lg leading-relaxed text-slate-300 bg-slate-900/50 p-8 rounded-xl border border-slate-800 shadow-xl">
-            I am a Software Engineer holding a B.S. in Software Engineering from Iowa State University of Science and Technology. 
-            I currently design and maintain cryptographic software for first-responder communication systems at Motorola Solutions, ensuring strict compliance with security standards like FIPS. 
-            I heavily leverage AI coding assistants to architect secure AWS infrastructure and engineer embedded firmware, meaningfully accelerating project delivery by over 60%. 
-            I am relocating to Austin, TX and am actively seeking new engineering roles where I can apply my expertise in secure enterprise architectures.
-          </p>
+        <section className="flex flex-col-reverse md:flex-row items-center justify-between gap-12">
+          {/* Left Side: Text Content */}
+          <div className="flex-1 w-full text-center md:text-left">
+            <h2 className="text-2xl font-bold text-slate-100 border-b border-slate-800 pb-3 mb-6 uppercase tracking-wider text-sm text-left">About Me</h2>
+            <p className="text-lg leading-relaxed text-slate-300 bg-slate-900/50 p-8 rounded-xl border border-slate-800 shadow-xl text-left">
+              I am a Software Engineer holding a B.S. in Software Engineering from Iowa State University of Science and Technology. 
+              I currently design and maintain cryptographic software for first-responder communication systems at Motorola Solutions, ensuring strict compliance with security standards like FIPS. 
+              I heavily leverage AI coding assistants to architect secure AWS infrastructure and engineer embedded firmware, meaningfully accelerating project delivery by over 60%. 
+              I am relocating to Austin, TX and am actively seeking new engineering roles where I can apply my expertise in secure enterprise architectures.
+            </p>
+          </div>
+
+          {/* Right Side: Profile Photo */}
+          <div className="flex-shrink-0 flex justify-center mt-4 md:mt-12 w-full md:w-auto mb-8 md:mb-0">
+            <div className="relative">
+              {/* Decorative background glow matched to the cyan theme */}
+              <div className="absolute inset-0 bg-cyan-900/20 rounded-full scale-110 -z-10 blur-md"></div>
+              <img 
+                src={profilePic} 
+                alt="Sam Degnan" 
+                className="w-56 h-56 md:w-64 md:h-64 rounded-full object-cover shadow-2xl border-4 border-slate-800"
+              />
+            </div>
+          </div>
         </section>
 
         {/* Featured Projects */}
