@@ -71,11 +71,11 @@ export default function App() {
                 link: "https://samueladegnan.github.io/seeo-aws-orchestrator/",
               },
               {
-                title: "Secure Embedded \"Asset Tracker\" with AI Anomaly Detection & Encrypted Shell",
-                tech: "C/C++, STM32 V8, I2C/SPI, TensorFlow Lite for Microcontrollers",
-                overview: "Build a secure data-logging device using an STM32 board that monitors environmental sensors and runs a local, lightweight anomaly detection model, with a secure command-line interface (CLI) that requires challenge-response authentication and transmits debugging logs over an encrypted tunnel.",
-                value: "Demonstrates ability to handle low-level hardware, implement security protocols, execute cryptographic handshakes, and integrate AI in resource-constrained environments.",
-                link: "https://samueladegnan.github.io/stm32-secure-asset-tracker/",
+                title: "Zero-Knowledge Gamified Fitness Platform",
+                tech: "React, Web Crypto API (AES-256-GCM), Argon2, Node.js, PostgreSQL, Docker",
+                overview: "A privacy-first, full-stack strength training platform utilizing a Zero-Knowledge Architecture that encrypts all exercise logs client-side before persisting data to the cloud.",
+                value: "Demonstrates full-stack mastery blended with end-to-end cryptography. Proves the ability to design privacy-preserving cloud architectures and build secure, production-ready systems.",
+                link: "https://samueladegnan.github.io/zk-gamified-fitness-platform/",
               },
               {
                 title: "AI-Driven \"CI/CD Guardrail\" for Secure Coding",
