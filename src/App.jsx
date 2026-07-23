@@ -68,21 +68,21 @@ export default function App() {
                 tech: "Ruby on Rails, AWS (EC2, EBS, Custom AMIs, Secrets Manager)",
                 overview: "An internal DevOps tool that automates the deployment of secure, TTL-bound AWS infrastructure.",
                 value: "Proves full-stack orchestration capabilities and strict adherence to zero-trust credential management.",
-                link: "https://github.com/samueladegnan/seeo-aws-orchestrator",
+                link: "https://samueladegnan.github.io/seeo-aws-orchestrator/",
               },
               {
                 title: "Secure Embedded \"Asset Tracker\" with AI Anomaly Detection & Encrypted Shell",
                 tech: "C/C++, STM32 V8, I2C/SPI, TensorFlow Lite for Microcontrollers",
                 overview: "Build a secure data-logging device using an STM32 board that monitors environmental sensors and runs a local, lightweight anomaly detection model, with a secure command-line interface (CLI) that requires challenge-response authentication and transmits debugging logs over an encrypted tunnel.",
                 value: "Demonstrates ability to handle low-level hardware, implement security protocols, execute cryptographic handshakes, and integrate AI in resource-constrained environments.",
-                link: "https://github.com/samueladegnan/stm32-secure-asset-tracker",
+                link: "https://samueladegnan.github.io/stm32-secure-asset-tracker/",
               },
               {
                 title: "AI-Driven \"CI/CD Guardrail\" for Secure Coding",
                 tech: "Python, Jenkins/GitLab Duo, LLM API, Docker, SonarQube",
                 overview: "Create a custom GitHub Action or CI pipeline component that uses an LLM to perform \"Context-Aware\" code reviews, specifically looking for secure coding violations in C/C++.",
                 value: "Highlights experience with DevOps, secure coding, and the ability to leverage AI to solve enterprise-level developer efficiency problems.",
-                link: "https://github.com/samueladegnan/ai-cicd-security-guardrail",
+                link: "https://samueladegnan.github.io/ai-cicd-security-guardrail/",
               }
             ].map((project, index) => (
               <div key={index} className="bg-slate-900/50 p-8 rounded-xl border border-slate-800 hover:border-cyan-900/50 transition-all shadow-lg group relative">
