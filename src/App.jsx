@@ -160,7 +160,7 @@ export default function App() {
                 </tr>
                 <tr className="hover:bg-slate-800/50 transition-colors">
                   <td className="py-4 px-6 font-semibold text-slate-200">Applied AI & ML</td>
-                  <td className="py-4 px-6 font-mono text-sm text-cyan-200">LLM Integration (Windsurf, Claude, Gemini), TensorFlow Lite, Prompt Engineering, Output Validation</td>
+                  <td className="py-4 px-6 font-mono text-sm text-cyan-200">LLM Integration (Windsurf, Claude, Gemini), Prompt Engineering, Output Validation</td>
                 </tr>
               </tbody>
             </table>
