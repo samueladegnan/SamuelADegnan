@@ -71,11 +71,11 @@ export default function App() {
                 link: "https://samueladegnan.github.io/seeo-aws-orchestrator/",
               },
               {
-                title: "Zero-Knowledge Gamified Fitness Platform",
+                title: "Zero-Knowledge Fitness Platform",
                 tech: "React, Web Crypto API (AES-256-GCM), Argon2, Node.js, PostgreSQL, Docker",
                 overview: "A privacy-first, full-stack strength training platform utilizing a Zero-Knowledge Architecture that encrypts all exercise logs client-side before persisting data to the cloud.",
                 value: "Demonstrates full-stack mastery blended with end-to-end cryptography. Proves the ability to design privacy-preserving cloud architectures and build secure, production-ready systems.",
-                link: "https://samueladegnan.github.io/zk-gamified-fitness-platform/",
+                link: "https://samueladegnan.github.io/zk-fitness-platform/",
               },
               {
                 title: "AI-Driven \"CI/CD Guardrail\" for Secure Coding",
